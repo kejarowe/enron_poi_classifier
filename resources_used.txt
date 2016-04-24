@@ -1,0 +1,9 @@
+http://scikit-learn.org/stable/modules/feature_selection.html#univariate-feature-selection                                           
+http://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.f_classif.html#sklearn.feature_selection.f_classif        
+https://en.wikipedia.org/wiki/F-test                                                                                                 
+http://scikit-learn.org/stable/auto_examples/feature_selection/plot_feature_selection.html                                           
+http://matplotlib.org/1.4.1/examples/pylab_examples/barchart_demo.htm
+http://scikit-learn.org/stable/modules/generated/sklearn.cross_validation.StratifiedShuffleSplit.html
+http://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html
+https://en.wikipedia.org/wiki/AdaBoost
+http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html
