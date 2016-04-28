@@ -10,11 +10,14 @@ with open("trained_classifier.pkl","r") as trained_classifier_in:
 features = feature_list[1:]
 importances = clf.feature_importances_
 
+feature_importances = zip(importances,features)
+feature_importances.sort(reverse=True)
+
 fig,ax  = plt.subplots()
-ind = np.arange(len(importances))
+ind = np.arange(len(feature_importances))
 bar_width = 0.5
-rects1=ax.bar(ind,importances,bar_width,color='r')
-ax.set_xticklabels(features,rotation='vertical')
+rects1=ax.bar(ind,[i[0] for i in feature_importances],bar_width,color='r')
+ax.set_xticklabels([f[1] for f in feature_importances],rotation='vertical')
 ax.set_xticks(ind+bar_width/2)
 plt.ylabel('Gini importance for base DecisionTreeClassifer')
 plt.title('AdaBoostClassifier Feature Importances')

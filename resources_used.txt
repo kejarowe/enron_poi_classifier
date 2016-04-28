@@ -7,3 +7,6 @@ http://scikit-learn.org/stable/modules/generated/sklearn.cross_validation.Strati
 http://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html
 https://en.wikipedia.org/wiki/AdaBoost
 http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html
+https://www.quora.com/How-do-I-properly-use-SelectKBest-GridSearchCV-and-cross-validation-in-the-sklearn-package-together
+https://en.wikipedia.org/wiki/Cross-validation_(statistics)
+https://en.wikipedia.org/wiki/F1_score
